@@ -1,0 +1,7 @@
+.flex-container {
+    display: flex;
+}
+
+#form-side {
+    flex-direction: column;
+}
