@@ -5,6 +5,8 @@
 #main-container {
     display: flex;
     justify-content: center;
+    outline: black solid;
+    height: 900px;
 }
 
 #form-side {
@@ -19,6 +21,9 @@
 
 #img-and-header {
     background-image: url("./img/forest.jpg");
+    background-size: 120% 100%;
+    width: 30%;
+    background-repeat: no-repeat;
 }
 
 .inputbox {
@@ -31,4 +36,10 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 70%
+}
+
+#header {
+    height: 100px;
+    padding-top: 200px;
+    justify-content: center;
 }
