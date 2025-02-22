@@ -21,9 +21,11 @@
 
 #img-and-header {
     background-image: url("./img/forest.jpg");
-    background-size: 120% 100%;
-    width: 30%;
+    background-size: 650px;
+    width: 25%;
+    margin: 0px 00px;
     background-repeat: no-repeat;
+    background-position: 50%;
 }
 
 .inputbox {
