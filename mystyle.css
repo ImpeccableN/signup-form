@@ -19,13 +19,14 @@
     flex-direction: column;
     justify-content: center;
     width: 700px;
-    padding: 5%;
+    /* padding: 5%; */
     background-color: rgb(245, 245, 245);
 }
 
 #infotext {
     font-size: 1.5rem;
     font-weight: bold;
+    padding-bottom: 30px;
 }
 
 #img-and-header {
@@ -58,6 +59,7 @@
 .shadow-box {
     box-shadow: 0px 5px 5px lightgray;
     background-color: white;
+    padding: 5px 0px 10px 0px;
 }
 
 #header {
@@ -74,4 +76,8 @@
 
 #logo {
     height: 2.5em;
+}
+
+.padding-left {
+    padding-left: 30px;
 }
