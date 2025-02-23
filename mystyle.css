@@ -12,6 +12,7 @@
     justify-content: center;
     outline: black solid;
     height: 900px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #form-side {
@@ -19,11 +20,12 @@
     justify-content: center;
     width: 700px;
     padding: 5%;
+    background-color: rgb(245, 245, 245);
 }
 
-.sub-container {
-    width: 600px;
-    
+#infotext {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 #img-and-header {
@@ -45,11 +47,17 @@
 #input-fields {
     flex-wrap: wrap;
     width: 70%;
+    font-size: 0.75rem;
 }
 
 .input-pairing {
     display: flex;
     width: 100%;
+}
+
+.shadow-box {
+    box-shadow: 0px 5px 5px lightgray;
+    background-color: white;
 }
 
 #header {
