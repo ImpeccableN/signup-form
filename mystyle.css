@@ -16,8 +16,9 @@
 
 #form-side {
     flex-direction: column;
+    justify-content: center;
     width: 700px;
-    padding: 20px;
+    padding: 5%;
 }
 
 .sub-container {
@@ -38,12 +39,17 @@
     display: flex;
     flex-direction: column;
     width: 40%;
+    padding-right: 10%;
 }
 
 #input-fields {
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 70%
+    width: 70%;
+}
+
+.input-pairing {
+    display: flex;
+    width: 100%;
 }
 
 #header {
