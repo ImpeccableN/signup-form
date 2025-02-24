@@ -110,3 +110,9 @@ input {
 input:invalid {
     border: 1px solid red;
 }
+
+a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
