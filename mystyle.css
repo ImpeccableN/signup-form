@@ -3,6 +3,12 @@
     src: url(./font/Norse-Bold.otf);
 }
 
+:focus {
+    border: blue;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 5px;
+}
+
 .flex-container {
     display: flex;
 }
@@ -47,7 +53,7 @@
 
 #input-fields {
     flex-wrap: wrap;
-    width: 70%;
+    width: 90%;
     font-size: 0.75rem;
 }
 
@@ -79,21 +85,28 @@
 }
 
 .padding-left {
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 #create-button {
     background-color: #596D48;
     color: white;
     font-size: 1rem;
+    font-weight: bold;
     padding: 15px 60px 15px 60px;
     border-radius: 8px;
     border: none;
+    box-shadow: 2px 2px 5px gray;
+    margin: 30px 0px; 
 }
 
 input {
     border-radius: 5px;
-    border: 1px solid lightgrey;
+    border: 1px solid #E5E7EB;
     padding: 7px 10px;
     font-size: 1rem;
+}
+
+input:invalid {
+    border: 1px solid red;
 }
