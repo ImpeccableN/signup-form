@@ -16,7 +16,7 @@
 #main-container {
     display: flex;
     justify-content: center;
-    outline: black solid;
+    /* outline: black solid; */
     height: 900px;
     font-family: Arial, Helvetica, sans-serif;
 }
